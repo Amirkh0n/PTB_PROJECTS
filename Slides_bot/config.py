@@ -1,8 +1,8 @@
 import json 
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton 
 
-TOKEN="5769873334:AAHngX_1-wZG2FuPjZDWCNzvXXgGrG5wUas"
-KARTA='9860 1601 2673 3114'
+TOKEN="YOUR_BOT_TOKEN"
+KARTA='YOUR_CARD_NUMBER'
 
 steps = {
     "name": 1,
@@ -15,7 +15,7 @@ steps = {
     'chek_photo':10
 }
 
-admin_id=717862748
+admin_id="type: int, admin's ID"
 
 with open("data.json", 'r') as file:
     data = json.load(file)
