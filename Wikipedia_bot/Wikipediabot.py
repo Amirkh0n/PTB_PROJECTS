@@ -4,7 +4,7 @@ import wikipedia
 import globals
 
 # Bot token va Wikipedia kutubxonasini o'rnatish
-TOKEN = ""
+TOKEN = "YOUR_BOT_TOKEN"
 wikipedia.set_lang("uz")  # Wikipedia tilini o'zgartiring
 
 def start(update, context):
